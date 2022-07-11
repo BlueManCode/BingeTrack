@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const DashBoardPage = () => {
-  return <div>DashBoard</div>;
+  useEffect(() => {
+    console.log('dashboard rendered');
+  }, []);
+
+  return (
+    <>
+      <div>DashBoard</div>
+    </>
+  );
 };
 
 export default DashBoardPage;
