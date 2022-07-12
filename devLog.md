@@ -22,3 +22,7 @@
 - [11am] making some optimization changes to the project. using `easy-peasy` and `react query` in order to maintain a centralized storage and fetch data with cacheing. need to learn all of these libs before implementation.
   useMemo: Returns and stores the calculated value of a function in a variable
   useCallBack: Returns and stores the actual function itself in a variable
+
+- [3pm] procrastination is a bad thing. Working on login and signup page now. need to make sure i understand responsiveness with tailwind
+
+- [5pm] well css is still and always be my worst nightmare. need more knowledge to full make UI better
