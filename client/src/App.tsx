@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useCheckUserAuth } from './hooks/useCheckUserAuth';
 
 // Public Pages
@@ -9,13 +10,16 @@ import SignUpPage from './pages/Public/SignUpPage';
 import DashBoardPage from './pages/Private/DashBoardPage';
 
 const App = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   useCheckUserAuth();
 
   return (
     <Routes>
+      <Route path='/' element={<DashBoardPage />}></Route>
       <Route path='/login' element={<LoginPage />}></Route>
       <Route path='/signup' element={<SignUpPage />}></Route>
-      <Route path='/' element={<DashBoardPage />}></Route>
     </Routes>
   );
 };

@@ -6,8 +6,6 @@ export const useCheckUserAuth = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    'path changed';
+    console.log(`path changed to ${location.pathname}`);
   }, [location.pathname]);
-
-  console.log('working');
 };
