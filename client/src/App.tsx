@@ -10,9 +10,6 @@ import SignUpPage from './pages/Public/SignUpPage';
 import DashBoardPage from './pages/Private/DashBoardPage';
 
 const App = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
-
   useCheckUserAuth();
 
   return (

@@ -26,3 +26,7 @@
 - [3pm] procrastination is a bad thing. Working on login and signup page now. need to make sure i understand responsiveness with tailwind
 
 - [5pm] well css is still and always be my worst nightmare. need more knowledge to full make UI better
+
+#### **July 12th 2022**
+
+- [12pm] aim to finish login and sign up today for sure. i think i need to stop worrying about UI and focus on getting the functionalities up and running. once login, signup and dashboard is complete i need to start thinking about application functionalities.
