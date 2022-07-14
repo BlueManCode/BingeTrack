@@ -27,8 +27,12 @@
 
 - [5pm] well css is still and always be my worst nightmare. need more knowledge to full make UI better
 
-#### **July 12th 2022**
+#### **July 13th 2022**
 
 - [12pm] aim to finish login and sign up today for sure. i think i need to stop worrying about UI and focus on getting the functionalities up and running. once login, signup and dashboard is complete i need to start thinking about application functionalities.
 
 - [2pm] client side auth working. users with valid token will no longer have access to login or signup page. users with invalid token will no longer have access to private routes.
+
+#### **July 14th 2022**
+
+- [11am]finally gonna work on the requirement document. it should mark down basic functionality requirements and cleary state all intended functions.

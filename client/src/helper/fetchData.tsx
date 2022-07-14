@@ -5,16 +5,16 @@ enum Type {
   POST = 'POST',
 }
 
-export const fetchData = (url: string, type: string, data = {}) => {
+export const fetchData = async (url: string, type: string, data = {}) => {
   // post request
   if (type === Type.POST) {
-    const result = axios.post(url, data, { withCredentials: true });
+    const result = await axios.post(url, data, { withCredentials: true });
     return result;
   }
 
   // get request
   else {
-    const result = axios.get(url, { withCredentials: true });
+    const result = await axios.get(url, { withCredentials: true });
     return result;
   }
 };

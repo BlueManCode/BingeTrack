@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SideBar from '../../components/SideBar';
 
 const DashBoardPage = () => {
   useEffect(() => {
@@ -7,7 +8,7 @@ const DashBoardPage = () => {
 
   return (
     <>
-      <div>DashBoard</div>
+      <SideBar />
     </>
   );
 };
