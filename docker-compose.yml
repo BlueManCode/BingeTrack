@@ -1,0 +1,21 @@
+version: '3.8'
+services: 
+  db: 
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+      POSTGRES_DB: binge_clock
+    volumes:
+      - ./server/database/docker-data/db-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+      
+  adminer:
+    depends_on: 
+      - db
+    image: adminer
+    restart: always
+    ports: 
+      - 8080:8080

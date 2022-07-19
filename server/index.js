@@ -6,7 +6,7 @@ import errorHandler from './src/middlewares/errorHandler.js'
 import validateAuthToken from './src/middlewares/validateAuthToken.js';
 import apiRoute from './src/routes/api.js'
 import authenticationRoute from './src/routes/authentication.js';
-import './src/DB/config.js';
+import './database/config.js'
 
 const app = express();
 

@@ -36,3 +36,11 @@
 #### **July 14th 2022**
 
 - [11am]finally gonna work on the requirement document. it should mark down basic functionality requirements and cleary state all intended functions.
+
+#### **July 16th 2022**
+
+- [1pm] Switching the database from mongodb to postgres. spent a few hours learning postgres. no reason behind the migration other then the fact that postgres is industry standard and i might as well learn it. This decision might slow down the development phase, but i fill like it would be worth learning a new piece of tech.
+
+#### **July 16th 2022**
+
+- [11am] checked out docker composed and created a docker compose of postgres. docker compose made it so much easy to run postgres. fully changed the database from mongoDB to postgres. need to install knex and learn how to use it. after that need to rework the authentication logic inorder to make it work with postgres.
