@@ -10,7 +10,7 @@ import SignUpPage from './pages/Public/SignUpPage';
 import DashBoardPage from './pages/Private/DashBoardPage';
 
 const App = () => {
-  useCheckUserAuth();
+  // useCheckUserAuth();
 
   return (
     <Routes>

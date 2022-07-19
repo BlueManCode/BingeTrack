@@ -3,6 +3,8 @@ services:
   db: 
     image: postgres
     restart: always
+    # networks:
+    #   - binge-track
     environment:
       POSTGRES_PASSWORD: admin
       POSTGRES_USER: admin
@@ -19,3 +21,27 @@ services:
     restart: always
     ports: 
       - 8080:8080
+
+#   backend:
+#     depends_on:
+#       - db
+#     image: node-backend
+#     networks:
+#       - binge-track
+#     ports:
+#       - 8000:8000
+
+#   client:
+#     depends_on:
+#       - backend
+#     image: react-client
+#     stdin_open: true
+#     networks:
+#       - binge-track
+#     ports:
+#       - 3000:3000
+
+
+# networks:
+#   binge-track:
+#     driver: bridge
