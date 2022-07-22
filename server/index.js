@@ -18,7 +18,7 @@ app.use(volleyball);
 // routes
 app.use('/authentication', authenticationRoute);
 app.use((req, res, next) => validateAuthToken(req, res, next))
-app.use('/api', apiRoute) // have access to "userID" and "username"
+app.use('/api', apiRoute) // have access to "userID" and "userName"
 app.use((err, req, res, next) => errorHandler(err, req, res, next))
 
 app.listen(8000, () => {

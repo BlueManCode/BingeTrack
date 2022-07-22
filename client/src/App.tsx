@@ -9,7 +9,7 @@ import HandleLogin from './pages/Public/HandleLogin';
 import DashBoardPage from './pages/Private/DashBoardPage';
 
 const App = () => {
-  // useCheckUserAuth();
+  useCheckUserAuth();
 
   return (
     <div className='bg-neutral-800 text-white font-sans h-screen m-0 p-0'>

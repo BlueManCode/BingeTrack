@@ -6,7 +6,7 @@ dotenv.config()
 
 export default (req, res, next) => {
   const { token } = req.cookies
-  console.log(token)
+  
   if(!token) {
     res.status(errorCode.INVALID_TOKEN_PROVIDED.code)
     next(new Error(errorCode.INVALID_TOKEN_PROVIDED.message))
