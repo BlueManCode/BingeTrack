@@ -44,3 +44,11 @@
 #### **July 16th 2022**
 
 - [11am] checked out docker composed and created a docker compose of postgres. docker compose made it so much easy to run postgres. fully changed the database from mongoDB to postgres. need to install knex and learn how to use it. after that need to rework the authentication logic inorder to make it work with postgres.
+
+#### **July 19th 2022**
+
+- [2pm] Worked with docker the whole day and now i have a much better grasp on how it works. gave up on library migrations and now will work on my own self migration system for postgres. Also,giving up on traditional auth and sticking with OAuth. For the time being only working on google oauth and might add more later on, need to find a way to have a primary key. Also need to learn postgres reference key concept.
+
+#### **July 21st 2022**
+
+- [11am] Need to stop procrastinating work. been study new technologies and libs for the last 2 days. aim to complete discord based login today with proper care towards private and public routing. once that is done, will focus on learning redis inorder to cache certain api request for performance enhancement.

@@ -1,4 +1,4 @@
 {
   "AUTH_CHECK": "http://localhost:8000/api/",
-  "LOGIN": "http://localhost:8000/authentication/login"
+  "LOGIN_DISCORD": "http://localhost:8000/authentication/login/oauth/discord"
 }
