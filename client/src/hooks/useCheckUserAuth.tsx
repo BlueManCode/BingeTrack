@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { fetchData } from '../helper/fetchData';
 import apiEndpoints from '../apiEndpoints.json';
+import { isConditionalExpression } from 'typescript';
 
 export const useCheckUserAuth = () => {
   const location = useLocation();
@@ -13,6 +14,8 @@ export const useCheckUserAuth = () => {
 
   const handleAuthCheck = async () => {
     const res = await fetchData(apiEndpoints.AUTH_CHECK, 'GET');
+
+    console.log(res.status);
 
     // user on one of the auth routes
     if (authRoutes.includes(location.pathname)) {
